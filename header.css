@@ -1,0 +1,180 @@
+#divfore{background-color:#c6dfff;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+padding-top: 30px;
+border: 1px solid #286090;}
+#Estagio{
+    margin: 10px;
+}
+#divaba{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.msg{color:#999;position: absolute;opacity: 0;
+  z-index: -1;display:inline;
+  pointer-events: none;
+  visibility: hidden;
+    padding-left:5px;
+    transition: opacity .5s ease-in-out,display 0s;
+    -o-transition: opacity .5s ease-in-out,display 0s;
+    -moz-transition: opacity .5s ease-in-out,display 0s;
+    -webkit-transition: opacity .5s ease-in-out,display 0s;
+    }
+
+#turndur{padding-top:12px;}
+
+.form-control {border: 1px solid #86abbd}
+.styled-select select:disabled{-webkit-appearance: none;}
+
+.styled-select select.option{color:white;}
+.styled-select select{
+   
+   background: #2f3233;
+    color:white;
+    text-align:center;
+   width: auto;
+   padding: 5px;
+   font-size: 16px;
+   line-height:auto;
+   border-radius: 10px;
+   height: 34px;
+ 
+   }    
+
+.styled-select select:focus+.msg{
+    position: static;
+  z-index: auto;
+  pointer-events: auto;
+  visibility: visible;
+   opacity: 1; 
+    overflow:inherit;
+    
+   }
+
+
+
+.affix {
+    top: 0;   
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    z-index: 9999 !important;
+}
+        .navbar-default{
+            background-color:#34568e;
+            padding-bottom: 10px;
+            padding-top: 10px;
+            padding-left: 10px;
+            padding-right: 10px;
+            border-radius: 10px;
+        }
+        .navbar-collapse{
+            border-radius: 0px;
+            
+        }      
+        .navbar-nav{
+          border-radius: 10px;
+          background-color:#c6dfff;
+        }       
+        .navbar-default .navbar-brand:hover,
+        .navbar-default .navbar-brand,
+        .navbar-default .navbar-brand:focus{background-color:#254071;color:white;}       
+        .navbar-default .navbar-nav > li > a:focus,
+        .navbar-default .navbar-nav > li > a:hover {background-color: #5b88d8;color:white;
+         border-radius: 10px;}
+        .navbar-default .navbar-nav > li > a{margin:5px;}
+        .navbar-default .navbar-nav>.active>a:hover,
+        .navbar-default .navbar-nav>.active>a:focus{background-color:#5b88d8;color:white;}        
+        .navbar-default .navbar-nav>.active>a
+         {
+             
+            color: white;
+            background-color: #34568e;
+            border-radius: 10px;
+}
+.navbar-default .navbar-brand{
+    border-radius: 10px;margin:5px;
+}
+.navbar-default .navbar-toggle{
+   background-color: #c6dfff;margin-top: 13px;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover{
+background-color:#5b88d8;
+    color:white;    
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar{background:white;}
+.navbar-default .navbar-toggle .icon-bar:focus,
+.navbar-default .navbar-toggle .icon-bar:hover{
+background-color:white;    
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #fff;
+    cursor: default;
+    background-color: #34568e;
+    border: 1px solid #337ab7;}
+.nav-tabs {margin-right: auto;padding-top: 5px;
+    margin-left: auto;border-bottom-color:#34568e;    background-color: white; }
+.nav-tabs>li>a:focus,.nav-tabs>li>a:hover{
+    background-color:#5b88d8;color:white;}
+.nav-tabs>li>a { background-color:#c6dfff;   border: 1px solid #286090;}
+.disabledtab{
+cursor: not-allowed;
+
+}
+
+/*não mexa daqui pra baixo (responsividade menu)*/
+  .navbar-collapse {
+      border-top: none;
+      box-shadow: none;
+    
+  }
+
+@media (min-width: 768px) and (max-width: 850px) {
+    .navbar>.container-fluid .navbar-brand {
+        margin-left: 5px;}
+    
+  .container-fluid>.navbar-header {
+      margin-right: -15px;
+    margin-left: -15px;
+      float: none;
+  }
+  .navbar-left,.navbar-right {
+      float: none !important;
+  }
+  .navbar-toggle {
+      display: block;
+  }
+  .navbar-collapse {
+      border-top: none;
+      box-shadow: none;
+    
+  }
+  .navbar-fixed-top {
+      top: 0;
+      border-width: 0 0 1px;
+  }
+  .navbar-collapse.collapse {
+      display: none!important;
+      
+  }
+  .navbar-nav {
+      float: none!important;
+      margin: 7.5px -15px
+  }
+  .navbar-nav>li {
+      float: none;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .collapse.in{
+      display:block !important;
+      margin-right: -15px;
+    margin-left: -15px;
+    
+  }
+
+}
